@@ -70,6 +70,8 @@ def setup(hass, hass_config):
                 device_class = 'switch'
             elif 'switches' in state:
                 device_class = ['switch'] * 4
+            elif devicecfg.get('uiid') == 18:
+                device_class = 'sensor'
             elif devicecfg.get('uiid') == 28:
                 device_class = 'remote'
             else:
