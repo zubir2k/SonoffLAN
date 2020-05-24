@@ -1,5 +1,5 @@
 {
   "name": "Sonoff LAN",
-  "url": "http://www.example/addons",
-  "maintainer": "AlexxIT"
+  "url": "https://github.com/zubir2k/SonoffLAN.git",
+  "maintainer": "Fork from AlexxIT"
 }
